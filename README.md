@@ -8,7 +8,7 @@ There is an infinite ways to solve the problem, but I approached 2: *Random pick
 
 ## Random picking
 
-In the random strategy, each prisoner independently chooses 50 boxes out of the 100 available, without any predetermined order or coordination. This means that each prisoner selects boxes purely by chance, hoping to find their own number among the 50 they open. While this gives each prisoner a 50% chance of success individually, the overall success condition requires that every one of the 100 prisoners finds their number. Consequently, the probability that all prisoners succeed simultaneously is $ \left(\frac{1}{2}\right)^{100} $ ≈ 0.0000000000000000000000000000008%, an astronomically small number. This illustrates that, despite the seemingly fair odds for a single prisoner, the random approach is highly suboptimal when considering the group's combined success.
+In the random strategy, each prisoner independently chooses 50 boxes out of the 100 available, without any predetermined order or coordination. This means that each prisoner selects boxes purely by chance, hoping to find their own number among the 50 they open. While this gives each prisoner a 50% chance of success individually, the overall success condition requires that every one of the 100 prisoners finds their number. Consequently, the probability that all prisoners succeed simultaneously is 0.5^100 ≈ 0.0000000000000000000000000000008%, an astronomically small number. This illustrates that, despite the seemingly fair odds for a single prisoner, the random approach is highly suboptimal when considering the group's combined success.
 
 ## Cycle strategy
 
